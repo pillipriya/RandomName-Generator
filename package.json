@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "path": "^0.12.7",
+    "random": "^5.1.1",
+    "url": "^0.11.4"
+  }
+}

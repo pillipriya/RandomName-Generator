@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Name</title>
+</head>
+<body style="background-color: rgb(7, 7, 7); align-items: center;">
+<center style="text-align:justify-contents;">
+   <%  if(locals.name){ %>
+        <h1 style="color: white;">Random Name generated is <%= name %> </h1>
+    <% }else{ %>
+        <h1 style="color: white;">Hey Click on the button</h1>
+        <h2 style="color: white;">Lets see what happens</h2>
+   <% } %>
+    <form action="/submit" method="POST">
+    <input type="submit" value="CLICK">
+   
+    </form>
+</center>
+</body>
+</html>
